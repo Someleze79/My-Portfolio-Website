@@ -122,7 +122,7 @@ code {
 
 /* When user hovers over the card */
 .hover-card:hover {
-  transform: translateY(-8px); scale: var(1.01);/* Moves card up slightly */
+  transform: translateY(-8px) scale(1.01); /* Moves card up slightly */
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* Adds depth */
 }
 

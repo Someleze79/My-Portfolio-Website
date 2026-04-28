@@ -35,7 +35,7 @@ function About() {
 
             {/* Paragraph 1 */}
             <p className="mb-3">
-              I am a passionate Frontend and Full-Stack Developer focused on
+              I am a passionate Full-Stack Developer focused on
               building modern, responsive, and user-friendly web applications.
               I enjoy turning complex problems into simple, clean, and intuitive solutions.
             </p>
