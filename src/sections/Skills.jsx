@@ -5,7 +5,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 // Import icons (stable mix of FA + SI)
-import { FaReact, FaJs, FaNodeJs, FaGitAlt, FaCss3Alt } from "react-icons/fa";
+import { FaReact, FaJs, FaNodeJs, FaGitAlt, FaCss3Alt, FaPalette } from "react-icons/fa";
 
 import {
   SiMongodb,
@@ -36,7 +36,8 @@ function Skills() {
         { name: "React", icon: <FaReact /> },
         { name: "JavaScript", icon: <FaJs /> },
         { name: "HTML", icon: <SiHtml5 /> },
-        { name: "CSS", icon: <FaCss3Alt /> }, // FIXED
+        { name: "CSS", icon: <FaCss3Alt /> },
+        { name: "UI/UX Principles", icon: <FaPalette /> },
         { name: "Redux", icon: <SiRedux /> },
         { name: "Bootstrap", icon: <SiBootstrap /> },
         { name: "Next.js", icon: <SiNextdotjs /> }
