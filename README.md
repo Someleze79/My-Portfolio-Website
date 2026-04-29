@@ -29,13 +29,17 @@ A modern, responsive full-stack developer portfolio built with React and Vite, d
 - React
 - JavaScript (ES6+)
 - HTML5 & CSS3
+- UI/UX Design Principles
+- Redux
 - Bootstrap
+- Next.js
 
 ### Backend / Concepts
 
 - Node.js
 - Express.js
 - RESTful APIs
+- API Integration
 - JWT Authentication
 
 ### Database
