@@ -9,6 +9,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 // Import images
 import iTunesMedia from "../assets/iTunesMedia.jpeg";
+import Freelancer from "../assets/Freelancer.jpeg";
 import OnlineStore from "../assets/OnlineStore.jpeg";
 import CashBalanceApp from "../assets/CashBalanceApp.jpeg";
 
@@ -25,6 +26,15 @@ function Projects() {
       image: iTunesMedia,
       github: "https://github.com/Someleze79/iTunes-Media-Web-Application",
       demo: "https://itunes-media-web-application-1.onrender.com"
+    },
+    {
+      title: "Freelancer Task Manager",
+      description:
+        "A full-stack MERN productivity platform built for freelancers and teams to manage projects, tasks, real-time collaboration, notifications, analytics, and AI-powered productivity insights with a modern responsive UI. ",
+      tech: "React, Vite, Tailwind CSS, Framer Motion, Axios, React Router DOM, React Hot Toast, Socket.IO, Lucide React, Node.js, Express.js, MongoDB, Mongoose, JWT Authentication, CORS, dotenv",
+      image: Freelancer.jpeg,
+      github: "https://github.com/Someleze79/Freelancer-Task-Manager",
+      demo: "https://freelancer-task-manager-pro.onrender.com"
     },
     {
       title: "Online Store",
