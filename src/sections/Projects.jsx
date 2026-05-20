@@ -31,7 +31,7 @@ function Projects() {
       title: "Freelancer Task Manager",
       description:
         "A full-stack MERN productivity platform for managing projects, tasks, collaboration, and AI-powered insights.",
-      tech: "React, Vite, Axios, dotenv, Tailwind CSS, Framer Motion, React Router DOM, React Hot Toast, Socket.IO, Lucide React, Node.js, Express.js, MongoDB, Mongoose, JWT Authentication, CORS",
+      tech: "React, Vite, Axios, Tailwind CSS, Framer Motion, React Hot Toast, Socket.IO, Lucide React, Node.js, Express.js, MongoDB, Mongoose, JWT, CORS",
       image: Freelancer.jpeg,
       github: "https://github.com/Someleze79/Freelancer-Task-Manager",
       demo: "https://freelancer-task-manager-pro.onrender.com"
