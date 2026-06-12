@@ -66,7 +66,7 @@ function Skills() {
         { name: "JWT Auth", icon: <TbApi /> },
         { name: "API Integration", icon: <TbApi /> },
         { name: "CRUD Operations", icon: <TbApi /> },
-        { name: "OpenAI API", icon: <TbApi /> }
+        { name: "OpenAI", icon: <TbApi /> }
       ]
     },
     {
