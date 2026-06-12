@@ -16,7 +16,8 @@ import {
   SiNextdotjs,
   SiGithub,
   SiMongoose,
-  SiHtml5
+  SiHtml5,
+  SiTypescript
 } from "react-icons/si";
 
 // VS Code icon (correct library)
@@ -35,6 +36,7 @@ function Skills() {
       items: [
         { name: "React", icon: <FaReact /> },
         { name: "JavaScript", icon: <FaJs /> },
+        { name: "TypeScript", icon: <SiTypescript /> },
         { name: "HTML", icon: <SiHtml5 /> },
         { name: "CSS", icon: <FaCss3Alt /> },
         { name: "UI/UX Principles", icon: <FaPalette /> },
@@ -62,7 +64,9 @@ function Skills() {
       items: [
         { name: "REST APIs", icon: <TbApi /> },
         { name: "JWT Auth", icon: <TbApi /> },
-        { name: "API Integration", icon: <TbApi /> }
+        { name: "API Integration", icon: <TbApi /> },
+        { name: "CRUD Operations", icon: <TbApi /> },
+        { name: "OpenAI API", icon: <TbApi /> }
       ]
     },
     {

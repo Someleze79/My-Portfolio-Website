@@ -31,7 +31,7 @@ function Projects() {
     {
       title: "Freelancer Task Manager Pro",
       description:
-        "A full-stack MERN productivity platform for managing projects, tasks, collaboration, and AI-powered insights.",
+        "A full-stack MERN productivity platform built for freelancers and teams to manage projects, tasks, real-time collaboration, notifications, analytics, and AI-powered productivity insights with a modern responsive UI.",
       tech: "React, Vite, Axios, Express.js, Node.js, Tailwind CSS, Socket.IO, Framer Motion, MongoDB, Mongoose, JWT, CORS",
       image: Freelancer,
       github: "https://github.com/Someleze79/Freelancer-Task-Manager",
