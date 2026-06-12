@@ -8,8 +8,9 @@ import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 // Import images
-import iTunesMedia from "../assets/iTunesMedia.jpeg";
+import AICareerAssistant from "../assets/AICareerAssistant.jpeg";
 import Freelancer from "../assets/Freelancer.jpeg";
+import iTunesMedia from "../assets/iTunesMedia.jpeg";
 import OnlineStore from "../assets/OnlineStore.jpeg";
 import CashBalanceApp from "../assets/CashBalanceApp.jpeg";
 
@@ -19,22 +20,31 @@ function Projects() {
   // Project data
   const projects = [
     {
-      title: "iTunes Media Search Application",
+      title: "AI Career Assistant",
       description:
-        "Full-stack app with JWT authentication, API integration, and responsive UI for searching and saving media content.",
-      tech: "JavaScript (ES6+), HTML5, CSS3, React, Node.js, Express, MongoDB, JWT, Axios",
-      image: iTunesMedia,
-      github: "https://github.com/Someleze79/iTunes-Media-Web-Application",
-      demo: "https://itunes-media-web-application-1.onrender.com"
+        "A full-stack web application designed to help job seekers manage their job search, improve their resumes, generate professional cover letters, prepare for interviews, and receive AI-powered career guidance.",
+      tech: "React, TypeScript, Tailwind CSS, Node.js, Express.js, MongoDB, JWT, OpenAI API, Axios, Render, Git",
+      image: AICareerAssistant,
+      github: "https://github.com/Someleze79/AI-Career-Assistant",
+      demo: "https://ai-career-assistant-1-onpg.onrender.com"
     },
     {
-      title: "Freelancer Task Manager",
+      title: "Freelancer Task Manager Pro",
       description:
         "A full-stack MERN productivity platform for managing projects, tasks, collaboration, and AI-powered insights.",
       tech: "React, Vite, Axios, Express.js, Node.js, Tailwind CSS, Socket.IO, Framer Motion, MongoDB, Mongoose, JWT, CORS",
       image: Freelancer,
       github: "https://github.com/Someleze79/Freelancer-Task-Manager",
       demo: "https://freelancer-task-manager-pro.onrender.com"
+    },
+    {
+      title: "iTunes Media Web Application",
+      description:
+        "A Full-stack app with JWT authentication, API integration, and responsive UI for searching and saving media content.",
+      tech: "JavaScript (ES6+), HTML5, CSS3, React, Node.js, Express, MongoDB, JWT, Axios",
+      image: iTunesMedia,
+      github: "https://github.com/Someleze79/iTunes-Media-Web-Application",
+      demo: "https://itunes-media-web-application-1.onrender.com"
     },
     {
       title: "Online Store",
